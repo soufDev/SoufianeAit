@@ -1,0 +1,22 @@
+{
+  "name": "soufianeait",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "soufDev <ait.akkache.soufiane@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/soufDev/SoufianeAit",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "font-awesome": "^4.7.0",
+    "bootstrap-sass": "^3.3.7"
+  }
+}
