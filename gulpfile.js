@@ -20,7 +20,6 @@ gulp.task('sass:watch', function () {
 
 gulp.task('connect', function() {
     connect.server({
-    	root: 'MyProjects/SoufianeAit',
         livereload: true
     });
 });
