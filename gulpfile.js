@@ -12,9 +12,17 @@ gulp.task('sass', function() {
 
 });
 
+gulp.task('html', function() {
+	gulp.src('./*.html')
+		.pipe(connect.reload());
+})
+
+
 gulp.task('sass:watch', function () {
 
 	gulp.watch('./sass/**/*.scss', ['sass']);
+	
+	gulp.watch('./*.html', ['html']);
 
 });
 
@@ -24,4 +32,4 @@ gulp.task('connect', function() {
     });
 });
 
-gulp.task('default',['sass:watch' ,'connect'] );
+gulp.task('default',['html', 'sass:watch' ,'connect'] );
