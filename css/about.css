@@ -1,0 +1,115 @@
+.navbar li a:hover {
+  background-color: #26a5b8 !important;
+}
+
+.navbar li.active > a {
+  background-color: #26a5b8 !important;
+}
+
+.navbar .navbar-brand {
+  color: #26a5b8 !important;
+}
+
+.navbar .navbar-brand:hover {
+  color: #26a5b8;
+}
+
+.intro .overlay {
+  background: linear-gradient(to right, rgba(239, 240, 240, 0.5) 0%, rgba(38, 165, 184, 0.5) 100%);
+}
+
+.about {
+  text-align: left;
+  overflow: hidden;
+}
+
+.about .pic {
+  max-width: 300px;
+  float: left;
+  margin-right: 40px;
+}
+
+.about .pic img {
+  height: 100%;
+}
+
+.about .info {
+  margin-top: 40px;
+}
+
+.about .info .about-title {
+  color: #919292;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.about .info .name {
+  color: #333333;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about .info .name span {
+  font-weight: 400;
+}
+
+.about .info .job {
+  color: #333333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about .info .some-text {
+  color: #515151;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.about .info .some-text span {
+  font-weight: bold;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .mycontainer {
+    background-color: transparent !important;
+  }
+  .intro {
+    height: 100% !important;
+    padding-top: 100px;
+  }
+  .intro .overlay {
+    height: 100%;
+  }
+  .about {
+    padding: 10px;
+    margin-bottom: 40px !important;
+    text-align: center;
+  }
+  .about .pic {
+    max-width: 100%;
+    float: none;
+    margin-right: 0;
+    width: 352px;
+    height: 352px;
+    border-radius: 50%;
+    margin: auto;
+    border: 2px solid #fcfcfc;
+    overflow: hidden;
+  }
+  .about .pic img {
+    width: 100%;
+    height: 500px;
+  }
+  .about .info {
+    margin-top: 20px;
+    background-color: #fcfcfc;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}

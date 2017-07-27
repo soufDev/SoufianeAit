@@ -136,6 +136,7 @@ body{background-color: #f5f5f5;overflow-x: hidden;}
 		left: 0;
 		right: 0;
 		bottom: 0;
+		z-index: 1;
 	}
 
 	h2{
@@ -175,6 +176,25 @@ body{background-color: #f5f5f5;overflow-x: hidden;}
 			color: #334b51;
 		}
 	}
+
+	.mycontainer{
+	background-color: rgba(245, 245, 245, 0.8);
+	border-radius: 10px;
+	width: 85%;
+	min-height: 420px;
+	margin: auto;
+	position: relative;
+	z-index: 9;
+	top: 15%;
+	}
+
+
+	@media (max-width: 768px){
+		
+		.mycontainer{background-color: #fcfcfc;}
+		
+	}
+	
 }
 
 // Medium devices
